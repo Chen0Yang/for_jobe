@@ -13,7 +13,6 @@ match_sink(Graph g, int source, int sink, void *data)
 
 static int node2dot(Graph g)
 {
-    assert(g != NULL);
     return 0;
 }
 
