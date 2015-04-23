@@ -18,8 +18,6 @@ void graph_foreach(Graph g, int source,
 #include <stdlib.h>
 #include <assert.h>
 
-#include "graph.h"
-
 /* basic directed graph type */
 /* the implementation uses adjacency lists
  * represented as variable-length arrays */
