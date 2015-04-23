@@ -37,7 +37,7 @@ int graph2dot(Graph g)
     fprintf(stdout,"digraph{");
     node2dot(g);
     edge2dot(g);
-    fprintf(stdout,"}n");
+    fprintf(stdout,"}\n");
     return 0;
 }
 
